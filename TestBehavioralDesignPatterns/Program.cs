@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ChainOfResponsibilityDesignPattern;
+using System;
 
 namespace TestBehavioralDesignPatterns
 {
@@ -6,7 +7,7 @@ namespace TestBehavioralDesignPatterns
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ChainOfResponsibilityDesign.TestChainResponsibilityDesign();
         }
     }
 }
