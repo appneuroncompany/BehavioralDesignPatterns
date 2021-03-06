@@ -10,6 +10,9 @@
     <ProjectReference Include="..\CommandDesignPattern\CommandDesignPattern.csproj" />
     <ProjectReference Include="..\MediatorDesignPattern\MediatorDesignPattern.csproj" />
     <ProjectReference Include="..\ObserverDesignPattern\ObserverDesignPattern.csproj" />
+    <ProjectReference Include="..\StateDesignPattern\StateDesignPattern.csproj" />
+    <ProjectReference Include="..\StrategyDesignPattern\StrategyDesignPattern.csproj" />
+    <ProjectReference Include="..\TemplateMethodDesignPattern\TemplateMethodDesignPattern.csproj" />
   </ItemGroup>
 
 </Project>

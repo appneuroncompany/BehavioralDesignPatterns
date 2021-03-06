@@ -2,7 +2,10 @@
 using CommandDesignPattern;
 using MediatorDesignPattern;
 using ObserverDesignPattern;
+using StateDesignPattern;
+using StrategyDesignPattern;
 using System;
+using TemplateMethodDesignPattern;
 
 namespace TestBehavioralDesignPatterns
 {
@@ -10,11 +13,13 @@ namespace TestBehavioralDesignPatterns
     {
         static void Main(string[] args)
         {
-            //ChainOfResponsibilityDesign.TestChainResponsibilityDesign();
-            //CommandDesign.TestCommandDesign();
-            //MediatorDesign.TestMediatorDesign();
-            //ObserverDesign.TestObserverDesgn();
-
+            ChainOfResponsibilityDesign.TestChainResponsibilityDesign();
+            CommandDesign.TestCommandDesign();
+            MediatorDesign.TestMediatorDesign();
+            ObserverDesign.TestObserverDesgn();
+            TemplateMethod.TestTemplateMethod();
+            StateDesign.TestStateDesign();
+            StrategyPattern.TestStrategyPattern();
         }
     }
 }
