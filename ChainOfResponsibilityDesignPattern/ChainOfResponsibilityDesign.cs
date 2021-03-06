@@ -4,7 +4,8 @@ using System;
 namespace ChainOfResponsibilityDesignPattern
 {
     /// <summary>
-    /// İstemcinin isteği var ve bu isteğin hedefe ulaşıncaya kadar üzerinde bir takım işlemler yapılması gerekiyor , bir takım processing sınıflar tarafından bu isteğin işlenmesi ve bir sonraki işlemciye geçirilmesi gerektiği durumlarda kullanılmalıdır.
+    /// İstemcinin isteği var ve bu isteğin hedefe ulaşıncaya kadar üzerinde bir takım işlemler yapılması gerekiyor ,
+    /// bir takım processing sınıflar tarafından bu isteğin işlenmesi ve bir sonraki işlemciye geçirilmesi gerektiği durumlarda kullanılmalıdır.
     /// </summary>
     public class ChainOfResponsibilityDesign
     {

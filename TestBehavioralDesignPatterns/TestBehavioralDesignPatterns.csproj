@@ -7,6 +7,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ChainOfResponsibilityDesignPattern\ChainOfResponsibilityDesignPattern.csproj" />
+    <ProjectReference Include="..\CommandDesignPattern\CommandDesignPattern.csproj" />
+    <ProjectReference Include="..\MediatorDesignPattern\MediatorDesignPattern.csproj" />
+    <ProjectReference Include="..\ObserverDesignPattern\ObserverDesignPattern.csproj" />
   </ItemGroup>
 
 </Project>

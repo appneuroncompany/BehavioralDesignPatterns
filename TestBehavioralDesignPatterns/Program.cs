@@ -1,4 +1,7 @@
 ﻿using ChainOfResponsibilityDesignPattern;
+using CommandDesignPattern;
+using MediatorDesignPattern;
+using ObserverDesignPattern;
 using System;
 
 namespace TestBehavioralDesignPatterns
@@ -7,7 +10,11 @@ namespace TestBehavioralDesignPatterns
     {
         static void Main(string[] args)
         {
-            ChainOfResponsibilityDesign.TestChainResponsibilityDesign();
+            //ChainOfResponsibilityDesign.TestChainResponsibilityDesign();
+            //CommandDesign.TestCommandDesign();
+            //MediatorDesign.TestMediatorDesign();
+            //ObserverDesign.TestObserverDesgn();
+
         }
     }
 }
